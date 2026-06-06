@@ -1,0 +1,14 @@
+{
+  // Cloudflare Workers config for the static Nuxt SPA build.
+  // An explicit assets config makes `wrangler deploy` upload .output/public
+  // directly and skip framework auto-detection — which is what avoids the
+  // "Nuxt 3.6.3 cannot be automatically configured" error.
+  // Build command must be `npm run generate` (outputs to .output/public).
+  "name": "webgolf-adventure",
+  "compatibility_date": "2026-06-06",
+  "assets": {
+    "directory": "./.output/public",
+    // SPA: serve index.html for any unmatched route (ssr: false in nuxt.config.ts)
+    "not_found_handling": "single-page-application"
+  }
+}
