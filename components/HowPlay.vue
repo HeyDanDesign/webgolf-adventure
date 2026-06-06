@@ -25,8 +25,8 @@
       </div>
 
       <div ref="content" class="px-120 -translate-x-40 opacity-0 pointer-events-auto xxl:px-80 l:px-56 l:text-center l:mx-auto xs:px-32">
-        <div class="w-[448px] h-32 mb-16 xxl:w-360 l:mx-auto s:w-240">
-          <BaseText :fontSize="fontSize" :strokeWidth="strokeWidth">Welcome to the WGLGA Tour</BaseText>
+        <div class="w-[416px] h-32 mb-16 xxl:w-360 l:mx-auto s:w-240">
+          <BaseText :fontSize="fontSize" :strokeWidth="strokeWidth">Welcome to the WGA Tour</BaseText>
         </div>
         <div class="text-20 font-baloo font-400 mb-32 max-w-520 xxl:text-16">
           <p class="text-white/70 my-8 [&>strong]:text-white">Putt the ball into each hole with as few strokes and penalties as possible. Navigate your way through <strong>9 unique holes</strong> and obtain the <strong>special collectibles</strong> along the way to multiply your final score.</p>

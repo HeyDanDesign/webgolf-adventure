@@ -84,7 +84,7 @@ const onStart = (event) => {
 
   // Detect advert click
   if (hit.object.name.includes('advert')) {
-    window.open('https://avark.agency', '_blank')
+    window.open('https://hey-dan.com', '_blank')
     // prevent shot logic from continuing
     return
   }

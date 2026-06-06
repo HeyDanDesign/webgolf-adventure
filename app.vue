@@ -6,6 +6,7 @@
     <GameUi :state="state" :class="{ 'opacity-0': !showGameUi }" @show-tutorial="openTutorial" />
     <ScoreCard :state="state" />
     <LevelHelper v-if="state.showHelper" :state="state" />
+    <PromoCard />
     <BaseTerms />
     <FinalBreakdown v-if="state.finalBreakdown" :stats="state.finalBreakdown" />
 

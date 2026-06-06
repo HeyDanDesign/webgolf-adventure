@@ -28,6 +28,7 @@ export const createWaterFoam = () => {
   camera = useCamera()
   renderTarget = useRenderTarget()
   pixelRatio = Math.min(window.devicePixelRatio, 2)
+  // pixelRatio = 0.5
 
   depthMaterial = new MeshDepthMaterial({
     depthPacking: RGBADepthPacking,

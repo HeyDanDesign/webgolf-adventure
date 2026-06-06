@@ -57,6 +57,12 @@ export const createState = () => {
       //   penalties: 0,
       //   score: 6,
       //   strokes: 6
+      // },
+      // {
+      //   par: 5,
+      //   penalties: 0,
+      //   score: 6,
+      //   strokes: 6
       // }
     ],
     showScorecard: false,

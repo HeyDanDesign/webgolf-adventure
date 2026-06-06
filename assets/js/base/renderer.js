@@ -33,6 +33,7 @@ export const createRenderer = (canvas) => {
   width = window.innerWidth
   height = window.innerHeight
   pixelRatio = Math.min(window.devicePixelRatio, 2)
+  // pixelRatio = 0.5
 
   renderer = new WebGLRenderer({ canvas, antialias: true, alpha: true })
   renderer.setSize(width, height)

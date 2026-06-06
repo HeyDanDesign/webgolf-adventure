@@ -4,8 +4,8 @@ import wasm from 'vite-plugin-wasm'
 import path from 'path'
 
 const meta = {
-  siteTitle: 'WebGL Golf Adventure',
-  siteName: 'WebGL Golf Adventure',
+  siteTitle: 'Web Golf Adventure',
+  siteName: 'Web Golf Adventure',
   siteDescription:
     'A 3D golf game built with Three.js and the Rapier physics engine. Navigate your way through 9 unique holes as quickly as you can and obtain special collectibles throughout the course.',
   socialUrl: 'https://webgolf.hey-dan.com/',
