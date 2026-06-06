@@ -1,0 +1,8 @@
+# Ignore all SVG files:
+*.svg
+
+# Ignore all SCSS files:
+*.scss
+
+# Ignore tailwind
+tailwind.config.js

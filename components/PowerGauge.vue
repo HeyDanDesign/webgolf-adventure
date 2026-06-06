@@ -1,0 +1,85 @@
+<template>
+  <div class="powerGauge fixed bottom-24 right-24 z-2 select-none xs:bottom-16 xs:right-16">
+
+    <div class="powerGauge__strokes absolute bottom-0 left-0 z-3 size-56 rounded-full bg-[#1D6486] p-4 group pointer-events-auto s:size-40">
+      <div class="w-full h-full bg-gradient-to-t from-white/10 to-white/40 rounded-full overflow-hidden relative">
+        <div class="absolute w-32 h-12 rounded-1/2 bg-white z-2 x-center -top-4 blur-sm" />
+        <BaseText :fontSize="24" :strokeWidth="3">{{ state.strokes }}</BaseText>
+      </div>
+      <BaseTooltip>Strokes</BaseTooltip>
+    </div>
+
+    <div
+      :class="{ 'scale-0': state.penalties === 0 }"
+      class="powerGauge__penalties absolute bottom-32 left-32 z-3 size-28 rounded-full bg-fire-400 p-2 group pointer-events-auto transition-transform duration-300 s:left-24 s:-bottom-8">
+      <div class="w-full h-full bg-gradient-to-t from-white/10 to-white/40 rounded-full overflow-hidden relative">
+        <div class="absolute w-32 h-12 rounded-1/2 bg-white z-2 x-center -top-4 blur-sm opacity-50" />
+        <BaseText :fontSize="16" :strokeWidth="2">{{ state.penalties }}</BaseText>
+      </div>
+      <BaseTooltip>Penalties</BaseTooltip>
+    </div>
+
+    <div class="powerGauge__ballHolder absolute z-2 left-12 bottom-12 pointer-events-auto group s:left-8 s:bottom-8">
+      <IconLocked :class="{ '!opacity-100': state.locked }" class="absolute xy-center z-2 size-64 opacity-0 transition-opacity pointer-events-none s:size-56" />
+
+      <div :class="{ '!hidden': state.locked }" class="powerGauge__cancelShot absolute xy-center z-2 transition-opacity pointer-events-none w-96 opacity-0 m:w-88">
+        <p class="text-12 uppercase font-700 text-white leading-120 text-center shadow-sm m:text-10">
+          Drag <span class="l:hidden">cursor</span><span class="hidden l:inline">finger</span> here to cancel
+        </p>
+      </div>
+
+      <img
+        :class="[{ '!opacity-50': state.locked }, { 'hover:!opacity-30': state.power > 0 }]"
+        class="powerGauge__ball size-120 relative z-1 transition-opacity s:size-[84px]" src="/images/golf-ball.png" />
+    </div>
+
+    <svg class="w-[172px] h-[204px] relative z-1 s:w-[120px] s:h-[142px]" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 172 204">
+      <defs>
+        <clipPath id="powerGauge__clipPath">
+          <path d="M159.61,115.35l-17.72,3.3c-.97-5.42-2.58-10.75-4.83-15.87l21.73-10.39c1.24,7.59,1.53,15.31.82,22.96ZM141.89,118.65h0,0ZM133.65,43.36c-.67-.67-1.33-1.33-2-1.97l-21,30.61c4.2,2.68,8.18,5.84,11.85,9.51h0c.3.29.58.61.88.91l24.35-20.83c-3.81-6.51-8.5-12.65-14.08-18.23ZM135.34,99.16l22.69-10.85c-1.69-7.98-4.44-15.78-8.32-23.16l-23.64,20.23c3.69,4.29,6.79,8.92,9.27,13.78ZM106.88,22.41l-14.59,41.31c5.15,1.47,10.15,3.54,14.92,6.21l21.51-31.36c-6.96-6.58-13.65-11.87-21.84-16.16ZM137.38,158.43l5.18,1.83c3.83-5.21,7.01-10.74,9.58-16.48l-10.19-.79c-.91,5.27-2.44,10.45-4.57,15.44h0ZM142.51,139.03l11.26.88c2.59-6.61,4.38-13.45,5.35-20.4l-16.65,3.1c.65,5.45.66,10.96.04,16.42ZM76.54,12.35h.01c-.19-.05-.36-.09-.55-.12v48.85c4.17.18,8.32.73,12.4,1.65l14.86-42.09c-7.3-3.38-15.85-6.09-26.72-8.29ZM135.71,162.09c-2.29,4.62-5.14,9.03-8.51,13.15-.85,1.03-1.72,2.05-2.64,3.04-.28.3-.54.61-.82.91.34-.25.67-.52,1.01-.78,1.1-.84,2.19-1.72,3.26-2.62,1.93-1.63,3.82-3.34,5.64-5.16,2.26-2.26,4.37-4.61,6.34-7.04l-4.27-1.51h0Z" fill="none" />
+        </clipPath>
+        <linearGradient id="powerGauge__powerGradient" x1="120" y1="160" x2="10" y2="134" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#d4e660" />
+          <stop offset=".5" stop-color="#fca405" />
+          <stop offset="1" stop-color="#df4e14" />
+        </linearGradient>
+      </defs>
+      <path d="M170.65,90.44c-.13-.77-.7-3.82-.86-4.61-1.95-9.21-5.12-18.05-9.44-26.26-.36-.69-1.85-3.36-2.25-4.04-4.4-7.52-9.77-14.47-15.95-20.66-.7-.7-1.39-1.38-2.08-2.06-.51-.5-2.55-2.46-3.08-2.97-8.59-8.11-16.14-13.68-24.51-18.07-.67-.35-3.42-1.68-4.14-2.04C89.01,0,64,0,64,0v12h.01c0,.07-.01.15-.01.22v48.23C28.05,64.45,0,95,0,132c0,39.7,32.3,72,72.01,72,36,0,62.55-18.03,63.74-19.03,2.32-1.95,4.41-3.86,6.39-5.85,2.5-2.5,4.91-5.18,7.17-7.97.51-.62.92-1.3,1.29-2,.59-.53,1.15-1.12,1.63-1.78,4.24-5.77,7.9-12.05,10.87-18.69.32-.73,1.55-3.64,1.85-4.41,2.88-7.34,4.9-15.01,6.01-22.78.11-.65.52-4.24.6-5.05.8-8.62.49-17.37-.93-26.01h.02Z" fill="#1D6486" />
+      <path d="M159.61,115.35l-17.72,3.3c-.97-5.42-2.58-10.75-4.83-15.87l21.73-10.39c1.24,7.59,1.53,15.31.82,22.96ZM141.89,118.65h0,0ZM133.65,43.36c-.67-.67-1.33-1.33-2-1.97l-21,30.61c4.2,2.68,8.18,5.84,11.85,9.51h0c.3.29.58.61.88.91l24.35-20.83c-3.81-6.51-8.5-12.65-14.08-18.23ZM135.34,99.16l22.69-10.85c-1.69-7.98-4.44-15.78-8.32-23.16l-23.64,20.23c3.69,4.29,6.79,8.92,9.27,13.78ZM106.88,22.41l-14.59,41.31c5.15,1.47,10.15,3.54,14.92,6.21l21.51-31.36c-6.96-6.58-13.65-11.87-21.84-16.16ZM137.38,158.43l5.18,1.83c3.83-5.21,7.01-10.74,9.58-16.48l-10.19-.79c-.91,5.27-2.44,10.45-4.57,15.44h0ZM142.51,139.03l11.26.88c2.59-6.61,4.38-13.45,5.35-20.4l-16.65,3.1c.65,5.45.66,10.96.04,16.42ZM76.54,12.35h.01c-.19-.05-.36-.09-.55-.12v48.85c4.17.18,8.32.73,12.4,1.65l14.86-42.09c-7.3-3.38-15.85-6.09-26.72-8.29ZM135.71,162.09c-2.29,4.62-5.14,9.03-8.51,13.15-.85,1.03-1.72,2.05-2.64,3.04-.28.3-.54.61-.82.91.34-.25.67-.52,1.01-.78,1.1-.84,2.19-1.72,3.26-2.62,1.93-1.63,3.82-3.34,5.64-5.16,2.26-2.26,4.37-4.61,6.34-7.04l-4.27-1.51h0Z" style="opacity: 0.2;" fill="#fff" />
+      <g style="clip-path: url(#powerGauge__clipPath);">
+        <circle :style="{ strokeDashoffset: power }" class="powerGauge__bar" cx="68" cy="118" r="82" />
+      </g>
+    </svg>
+  </div>
+</template>
+
+<script setup>
+import { useState } from '@game/state'
+
+import IconLocked from '@svgs/icons/locked.svg'
+import IconCross from '@svgs/icons/cross.svg'
+
+const state = useState()
+
+const start = 520
+const end = 720
+
+const power = computed(() => {
+  if (state.locked) return start
+  return start + ((end - start) * state.power)
+})
+</script>
+
+<style lang="scss">
+.powerGauge {
+  &__bar {
+    fill: none;
+    stroke: url(#powerGauge__powerGradient);
+    stroke-miterlimit: 10;
+    stroke-width: 52px;
+    transform: rotate(50deg);
+    transform-origin: 68px 118px;
+    stroke-dasharray: 520;
+  }
+}
+</style>

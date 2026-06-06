@@ -1,0 +1,2497 @@
+{
+  "levels": [
+    {
+      "par": 4,
+      "start": {
+        "x": 6.5,
+        "y": 6,
+        "z": 0
+      },
+      "camera": {
+        "zoom": {
+          "desktop": 75,
+          "mobile": 75
+        }
+      },
+      "offset": {
+        "x": 2.5,
+        "z": 0
+      },
+      "ground": [
+        {
+          "type": "ground_2x2",
+          "coliderType": "trimesh",
+          "size": 2,
+          "rotation": 0,
+          "position": {
+            "x": 7,
+            "y": 0,
+            "z": -1
+          }
+        },
+        {
+          "type": "ground_2x2",
+          "coliderType": "trimesh",
+          "size": 2,
+          "rotation": 0,
+          "position": {
+            "x": 7,
+            "y": 0,
+            "z": 1
+          }
+        },
+        {
+          "type": "ground_4x4",
+          "coliderType": "cuboid",
+          "size": 4,
+          "rotation": -90,
+          "position": {
+            "x": 4,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "type": "ground_4x4",
+          "coliderType": "cuboid",
+          "size": 4,
+          "rotation": 180,
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "type": "ground_4x4",
+          "coliderType": "cuboid",
+          "size": 4,
+          "rotation": 0,
+          "position": {
+            "x": -4,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "type": "ground_4x4",
+          "coliderType": "cuboid",
+          "size": 4,
+          "rotation": 90,
+          "position": {
+            "x": -8,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "type": "hole_2x2",
+          "coliderType": "trimesh",
+          "size": 2,
+          "rotation": 0,
+          "position": {
+            "x": -11,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ],
+      "barriers": [
+        {
+          "coliderType": "cuboid",
+          "rotation": 0,
+          "size": {
+            "width": 0.1,
+            "height": 0.1,
+            "depth": 3.5
+          },
+          "position": {
+            "x": 7.7,
+            "y": 3.1,
+            "z": 0
+          }
+        },
+        {
+          "coliderType": "cuboid",
+          "rotation": 0,
+          "size": {
+            "width": 17.5,
+            "height": 0.1,
+            "depth": 0.1
+          },
+          "position": {
+            "x": -1,
+            "y": 3.1,
+            "z": -1.8
+          }
+        },
+        {
+          "coliderType": "cuboid",
+          "rotation": 0,
+          "size": {
+            "width": 17.5,
+            "height": 0.1,
+            "depth": 0.1
+          },
+          "position": {
+            "x": -1,
+            "y": 3.1,
+            "z": 1.8
+          }
+        }
+      ],
+      "assets": [
+        {
+          "type": "advert",
+          "coliderType": "trimesh",
+          "rotation": -90,
+          "position": {
+            "x": 7,
+            "y": 3,
+            "z": 0
+          }
+        },
+        {
+          "type": "sign-danger",
+          "coliderType": "cuboid",
+          "rotation": -0.3,
+          "position": {
+            "x": -9.7,
+            "y": 3,
+            "z": 1.4
+          }
+        },
+        {
+          "type": "bush-medium",
+          "coliderType": "trimesh",
+          "rotation": 3,
+          "position": {
+            "x": 1.3,
+            "y": 3,
+            "z": -1
+          }
+        },
+        {
+          "type": "bush-small",
+          "coliderType": "trimesh",
+          "rotation": 0,
+          "position": {
+            "x": 0.7,
+            "y": 3,
+            "z": -1.4
+          }
+        },
+        {
+          "type": "bush-large",
+          "coliderType": "trimesh",
+          "rotation": 180,
+          "position": {
+            "x": 2,
+            "y": 3,
+            "z": -0.2
+          }
+        },
+        {
+          "type": "sign-left",
+          "coliderType": "cuboid",
+          "rotation": 0,
+          "position": {
+            "x": 0,
+            "y": 3,
+            "z": -1.4
+          }
+        },
+        {
+          "type": "tree1",
+          "coliderType": "cuboid",
+          "rotation": -0.9,
+          "position": {
+            "x": 5,
+            "y": 3,
+            "z": -1.4
+          }
+        },
+        {
+          "type": "bush-small",
+          "coliderType": "trimesh",
+          "rotation": 0,
+          "position": {
+            "x": -2,
+            "y": 3,
+            "z": 1.3
+          }
+        },
+        {
+          "type": "trunk2",
+          "coliderType": "trimesh",
+          "rotation": 0,
+          "position": {
+            "x": -1.9,
+            "y": 2.8,
+            "z": 0.5
+          }
+        },
+        {
+          "type": "trunk1",
+          "coliderType": "trimesh",
+          "rotation": 90,
+          "position": {
+            "x": -6,
+            "y": 3,
+            "z": -0.8
+          }
+        }
+      ],
+      "collectibles": [],
+      "obstacles": []
+    },
+    {
+      "par": 4,
+      "start": {
+        "x": 8,
+        "y": 6,
+        "z": 0
+      },
+      "camera": {
+        "zoom": {
+          "desktop": 70,
+          "mobile": 75
+        }
+      },
+      "offset": {
+        "x": 0,
+        "z": 0
+      },
+      "ground": [
+        {
+          "type": "ground_4x4",
+          "coliderType": "cuboid",
+          "size": 4,
+          "rotation": 0,
+          "position": {
+            "x": 7,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "type": "ground_4x4",
+          "coliderType": "cuboid",
+          "size": 4,
+          "rotation": 0,
+          "position": {
+            "x": 3,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "type": "ground_2x2",
+          "coliderType": "cuboid",
+          "size": 2,
+          "rotation": 0,
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "type": "ramp_4x4",
+          "coliderType": "trimesh",
+          "size": 4,
+          "rotation": 0,
+          "position": {
+            "x": -3,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "type": "hole_4x4",
+          "coliderType": "trimesh",
+          "size": 4,
+          "rotation": 0,
+          "position": {
+            "x": -7,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ],
+      "barriers": [
+        {
+          "coliderType": "cuboid",
+          "rotation": 0,
+          "size": {
+            "width": 0.1,
+            "height": 0.1,
+            "depth": 3.5
+          },
+          "position": {
+            "x": 8.7,
+            "y": 3.1,
+            "z": 0
+          }
+        },
+        {
+          "coliderType": "cuboid",
+          "rotation": 0,
+          "size": {
+            "width": 7.5,
+            "height": 0.1,
+            "depth": 0.1
+          },
+          "position": {
+            "x": 5,
+            "y": 3.1,
+            "z": -1.8
+          }
+        },
+        {
+          "coliderType": "cuboid",
+          "rotation": 0,
+          "size": {
+            "width": 7.5,
+            "height": 0.1,
+            "depth": 0.1
+          },
+          "position": {
+            "x": 5,
+            "y": 3.1,
+            "z": 1.8
+          }
+        }
+      ],
+      "assets": [
+        {
+          "type": "trunk1",
+          "coliderType": "cuboid",
+          "rotation": 90,
+          "position": {
+            "x": 5,
+            "y": 3,
+            "z": 0
+          }
+        },
+        {
+          "type": "sign-danger",
+          "coliderType": "cuboid",
+          "rotation": -0.3,
+          "position": {
+            "x": 0,
+            "y": 3,
+            "z": -0.8
+          }
+        },
+        {
+          "type": "tree1",
+          "coliderType": "cuboid",
+          "rotation": -0.9,
+          "position": {
+            "x": 1.4,
+            "y": 3,
+            "z": -1.4
+          }
+        },
+        {
+          "type": "tree2",
+          "coliderType": "cuboid",
+          "rotation": -0.9,
+          "position": {
+            "x": -1.5,
+            "y": 3,
+            "z": -1.4
+          }
+        }
+      ],
+      "collectibles": [],
+      "obstacles": []
+    },
+    {
+      "par": 5,
+      "start": {
+        "x": 8.5,
+        "y": 6,
+        "z": 0.5
+      },
+      "camera": {
+        "zoom": {
+          "desktop": 60,
+          "mobile": 65
+        }
+      },
+      "offset": {
+        "x": 0.4,
+        "z": -3.5
+      },
+      "ground": [
+        {
+          "type": "sand_4x4",
+          "coliderType": "trimesh",
+          "size": 4,
+          "rotation": -90,
+          "position": {
+            "x": 8,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "type": "ground_4x4",
+          "coliderType": "cuboid",
+          "size": 4,
+          "rotation": 0,
+          "position": {
+            "x": 8,
+            "y": 0,
+            "z": 4
+          }
+        },
+        {
+          "type": "ground_2x2",
+          "coliderType": "cuboid",
+          "size": 2,
+          "rotation": 0,
+          "position": {
+            "x": 5,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "type": "ground_2x2",
+          "coliderType": "cuboid",
+          "size": 2,
+          "rotation": 0,
+          "position": {
+            "x": -1,
+            "y": -1,
+            "z": 0
+          }
+        },
+        {
+          "type": "ground_2x2",
+          "coliderType": "cuboid",
+          "size": 2,
+          "rotation": 0,
+          "position": {
+            "x": -3,
+            "y": -1,
+            "z": 0
+          }
+        },
+        {
+          "type": "ground_2x2",
+          "coliderType": "cuboid",
+          "size": 2,
+          "rotation": 0,
+          "position": {
+            "x": -5,
+            "y": -1,
+            "z": 0
+          }
+        },
+        {
+          "type": "ground_2x2",
+          "coliderType": "cuboid",
+          "size": 2,
+          "rotation": 0,
+          "position": {
+            "x": 5,
+            "y": 0,
+            "z": 5
+          }
+        },
+        {
+          "type": "ground_2x2",
+          "coliderType": "cuboid",
+          "size": 2,
+          "rotation": 0,
+          "position": {
+            "x": 3,
+            "y": 0,
+            "z": 5
+          }
+        },
+        {
+          "type": "ground_2x2",
+          "coliderType": "cuboid",
+          "size": 2,
+          "rotation": 0,
+          "position": {
+            "x": 1,
+            "y": -1,
+            "z": 5
+          }
+        },
+        {
+          "type": "ground_2x2",
+          "coliderType": "cuboid",
+          "size": 2,
+          "rotation": 0,
+          "position": {
+            "x": -1,
+            "y": -1,
+            "z": 5
+          }
+        },
+        {
+          "type": "hole_8x8",
+          "coliderType": "trimesh",
+          "size": 8,
+          "rotation": 0,
+          "position": {
+            "x": -6,
+            "y": -2,
+            "z": 5
+          }
+        }
+      ],
+      "barriers": [
+        {
+          "coliderType": "cuboid",
+          "rotation": 90,
+          "size": {
+            "width": 0.1,
+            "height": 0.1,
+            "depth": 7.5
+          },
+          "position": {
+            "x": 6,
+            "y": 3.05,
+            "z": 6
+          }
+        },
+        {
+          "coliderType": "cuboid",
+          "rotation": 90,
+          "size": {
+            "width": 0.1,
+            "height": 0.1,
+            "depth": 3.75
+          },
+          "position": {
+            "x": 4,
+            "y": 3.05,
+            "z": 4
+          }
+        },
+        {
+          "coliderType": "cuboid",
+          "rotation": 90,
+          "size": {
+            "width": 0.1,
+            "height": 0.1,
+            "depth": 3.75
+          },
+          "position": {
+            "x": 0,
+            "y": 2.05,
+            "z": 4
+          }
+        },
+        {
+          "coliderType": "cuboid",
+          "rotation": 90,
+          "size": {
+            "width": 0.1,
+            "height": 0.1,
+            "depth": 3.75
+          },
+          "position": {
+            "x": 0,
+            "y": 2.05,
+            "z": 6
+          }
+        },
+        {
+          "coliderType": "cuboid",
+          "rotation": 0,
+          "size": {
+            "width": 0.1,
+            "height": 0.1,
+            "depth": 7.5
+          },
+          "position": {
+            "x": -9.9,
+            "y": 1.05,
+            "z": 5
+          }
+        },
+        {
+          "coliderType": "cuboid",
+          "rotation": 90,
+          "size": {
+            "width": 0.1,
+            "height": 0.1,
+            "depth": 4
+          },
+          "position": {
+            "x": -7.9,
+            "y": 1.05,
+            "z": 1.3
+          }
+        },
+        {
+          "coliderType": "cuboid",
+          "rotation": 90,
+          "size": {
+            "width": 0.1,
+            "height": 0.1,
+            "depth": 7.8
+          },
+          "position": {
+            "x": -6,
+            "y": 1.05,
+            "z": 8.8
+          }
+        },
+        {
+          "coliderType": "cuboid",
+          "rotation": 90,
+          "size": {
+            "width": 0.1,
+            "height": 0.1,
+            "depth": 4
+          },
+          "position": {
+            "x": -4,
+            "y": 2.05,
+            "z": -1
+          }
+        },
+        {
+          "coliderType": "cuboid",
+          "rotation": 0,
+          "size": {
+            "width": 0.1,
+            "height": 0.1,
+            "depth": 2
+          },
+          "position": {
+            "x": -6,
+            "y": 2.05,
+            "z": 0
+          }
+        }
+      ],
+      "assets": [
+        {
+          "type": "sign-danger",
+          "coliderType": "cuboid",
+          "rotation": -0.3,
+          "position": {
+            "x": 6,
+            "y": 3,
+            "z": -0.5
+          }
+        },
+        {
+          "type": "sign-left",
+          "coliderType": "cuboid",
+          "rotation": 0,
+          "position": {
+            "x": 6.25,
+            "y": 3,
+            "z": 4
+          }
+        },
+        {
+          "type": "tree1",
+          "coliderType": "cuboid",
+          "rotation": -0.9,
+          "position": {
+            "x": 9.4,
+            "y": 3,
+            "z": 2
+          }
+        },
+        {
+          "type": "tree2",
+          "coliderType": "cuboid",
+          "rotation": -0.9,
+          "position": {
+            "x": 7,
+            "y": 3,
+            "z": -1.4
+          }
+        },
+        {
+          "type": "bush-large",
+          "coliderType": "trimesh",
+          "rotation": 0,
+          "position": {
+            "x": 9,
+            "y": 3,
+            "z": 5
+          }
+        },
+        {
+          "type": "tree1",
+          "coliderType": "cuboid",
+          "rotation": 0.8,
+          "position": {
+            "x": -9.2,
+            "y": 1,
+            "z": 1.8
+          }
+        },
+        {
+          "type": "bush-medium",
+          "coliderType": "trimesh",
+          "rotation": 2,
+          "position": {
+            "x": -2.5,
+            "y": 1,
+            "z": 2
+          }
+        }
+      ],
+      "collectibles": [
+        {
+          "type": "coin-1",
+          "coliderType": "trimesh",
+          "rotation": 0,
+          "position": {
+            "x": -5,
+            "y": 2.5,
+            "z": 0
+          }
+        }
+      ],
+      "obstacles": []
+    },
+    {
+      "par": 3,
+      "start": {
+        "x": -6,
+        "y": 6,
+        "z": 0
+      },
+      "camera": {
+        "zoom": {
+          "desktop": 70,
+          "mobile": 75
+        }
+      },
+      "offset": {
+        "x": 2,
+        "z": 0
+      },
+      "ground": [
+        {
+          "type": "hole_4x4",
+          "coliderType": "trimesh",
+          "size": 4,
+          "rotation": -90,
+          "position": {
+            "x": 4,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "type": "ground_4x4",
+          "coliderType": "cuboid",
+          "size": 4,
+          "rotation": 180,
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "type": "ground_4x4",
+          "coliderType": "cuboid",
+          "size": 4,
+          "rotation": 0,
+          "position": {
+            "x": -4,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "type": "ground_4x4",
+          "coliderType": "cuboid",
+          "size": 4,
+          "rotation": 90,
+          "position": {
+            "x": -8,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ],
+      "barriers": [
+        {
+          "coliderType": "cuboid",
+          "rotation": 0,
+          "size": {
+            "width": 0.1,
+            "height": 0.1,
+            "depth": 3.7
+          },
+          "position": {
+            "x": -9.8,
+            "y": 3.1,
+            "z": 0
+          }
+        },
+        {
+          "coliderType": "cuboid",
+          "rotation": 0,
+          "size": {
+            "width": 15.6,
+            "height": 0.1,
+            "depth": 0.1
+          },
+          "position": {
+            "x": -2,
+            "y": 3.1,
+            "z": -1.8
+          }
+        },
+        {
+          "coliderType": "cuboid",
+          "rotation": 0,
+          "size": {
+            "width": 15.6,
+            "height": 0.1,
+            "depth": 0.1
+          },
+          "position": {
+            "x": -2,
+            "y": 3.1,
+            "z": 1.8
+          }
+        }
+      ],
+      "assets": [
+        {
+          "type": "tree2",
+          "coliderType": "cuboid",
+          "rotation": 90,
+          "position": {
+            "x": -9.2,
+            "y": 3,
+            "z": -1.3
+          }
+        },
+        {
+          "type": "trunk1",
+          "coliderType": "trimesh",
+          "rotation": 90,
+          "position": {
+            "x": 0,
+            "y": 3,
+            "z": -1.3
+          }
+        },
+        {
+          "type": "trunk1",
+          "coliderType": "trimesh",
+          "rotation": -90,
+          "position": {
+            "x": 2,
+            "y": 3,
+            "z": 1.3
+          }
+        },
+        {
+          "type": "sign-danger",
+          "coliderType": "cuboid",
+          "rotation": -1,
+          "position": {
+            "x": 5.5,
+            "y": 3,
+            "z": 1.3
+          }
+        }
+      ],
+      "collectibles": [],
+      "obstacles": [
+        {
+          "type": "windmill",
+          "coliderType": "trimesh",
+          "rotation": 0,
+          "position": {
+            "x": -4,
+            "y": 3,
+            "z": 0
+          }
+        }
+      ]
+    },
+    {
+      "par": 5,
+      "start": {
+        "x": 8,
+        "y": 6,
+        "z": 2
+      },
+      "camera": {
+        "zoom": {
+          "desktop": 80,
+          "mobile": 70
+        }
+      },
+      "offset": {
+        "x": 1,
+        "z": 1
+      },
+      "ground": [
+        {
+          "type": "ground_4x4",
+          "coliderType": "cuboid",
+          "size": 4,
+          "rotation": 0,
+          "position": {
+            "x": 6,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "type": "bridge1",
+          "coliderType": "trimesh",
+          "size": 4,
+          "rotation": 0,
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 1
+          }
+        },
+        {
+          "type": "ground_2x2",
+          "coliderType": "cuboid",
+          "size": 2,
+          "rotation": 0,
+          "position": {
+            "x": -1,
+            "y": 0,
+            "z": 1
+          }
+        },
+        {
+          "type": "bridge1",
+          "coliderType": "trimesh",
+          "size": 4,
+          "rotation": 90,
+          "position": {
+            "x": -1,
+            "y": 0,
+            "z": -2
+          }
+        },
+        {
+          "type": "ground_2x2",
+          "coliderType": "cuboid",
+          "size": 2,
+          "rotation": 0,
+          "position": {
+            "x": -1,
+            "y": 0,
+            "z": -5
+          }
+        },
+        {
+          "type": "ramp_2x4",
+          "coliderType": "trimesh",
+          "size": 2,
+          "rotation": 180,
+          "position": {
+            "x": -4,
+            "y": 0,
+            "z": -5
+          }
+        },
+        {
+          "type": "ground_2x2",
+          "coliderType": "cuboid",
+          "size": 2,
+          "rotation": 0,
+          "position": {
+            "x": -7,
+            "y": -2,
+            "z": -5
+          }
+        },
+        {
+          "type": "hole_4x4",
+          "coliderType": "trimesh",
+          "size": 4,
+          "rotation": 180,
+          "position": {
+            "x": -6,
+            "y": -2,
+            "z": -2
+          }
+        },
+        {
+          "type": "ground_2x2",
+          "coliderType": "cuboid",
+          "size": 2,
+          "rotation": 0,
+          "position": {
+            "x": -3,
+            "y": -2,
+            "z": -1
+          }
+        },
+        {
+          "type": "ground_2x2",
+          "coliderType": "cuboid",
+          "size": 2,
+          "rotation": 0,
+          "position": {
+            "x": -1,
+            "y": -2,
+            "z": -1
+          }
+        },
+        {
+          "type": "ramp_2x4",
+          "coliderType": "trimesh",
+          "size": 2,
+          "rotation": 180,
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": -1
+          }
+        }
+      ],
+      "barriers": [
+        {
+          "coliderType": "cuboid",
+          "rotation": 0,
+          "size": {
+            "width": 0.1,
+            "height": 0.1,
+            "depth": 3.5
+          },
+          "position": {
+            "x": 7.7,
+            "y": 3.1,
+            "z": 0
+          }
+        },
+        {
+          "coliderType": "cuboid",
+          "rotation": 0,
+          "size": {
+            "width": 3.5,
+            "height": 0.1,
+            "depth": 0.1
+          },
+          "position": {
+            "x": 6,
+            "y": 3.1,
+            "z": -1.8
+          }
+        },
+        {
+          "coliderType": "cuboid",
+          "rotation": 0,
+          "size": {
+            "width": 3.5,
+            "height": 0.1,
+            "depth": 0.1
+          },
+          "position": {
+            "x": 6,
+            "y": 3.1,
+            "z": 1.8
+          }
+        },
+        {
+          "coliderType": "cuboid",
+          "rotation": 0,
+          "size": {
+            "width": 4,
+            "height": 0.1,
+            "depth": 0.1
+          },
+          "position": {
+            "x": -2,
+            "y": 1.1,
+            "z": -1.8
+          }
+        },
+        {
+          "coliderType": "cuboid",
+          "rotation": 0,
+          "size": {
+            "width": 5.3,
+            "height": 0.1,
+            "depth": 0.1
+          },
+          "position": {
+            "x": -5.1,
+            "y": 1.1,
+            "z": -0.1
+          }
+        },
+        {
+          "coliderType": "cuboid",
+          "rotation": 0,
+          "size": {
+            "width": 0.1,
+            "height": 0.1,
+            "depth": 3.8
+          },
+          "position": {
+            "x": -7.7,
+            "y": 1.1,
+            "z": -2
+          }
+        }
+      ],
+      "assets": [
+        {
+          "type": "trunk1",
+          "coliderType": "trimesh",
+          "rotation": 90,
+          "position": {
+            "x": -7.6,
+            "y": 1,
+            "z": -5
+          }
+        },
+        {
+          "type": "sign-danger",
+          "coliderType": "cuboid",
+          "rotation": -0.3,
+          "position": {
+            "x": -0.7,
+            "y": 3,
+            "z": 1.8
+          }
+        },
+        {
+          "type": "sign-left",
+          "coliderType": "cuboid",
+          "rotation": 0,
+          "position": {
+            "x": 4,
+            "y": 3,
+            "z": 1.5
+          }
+        },
+        {
+          "type": "tree1",
+          "coliderType": "cuboid",
+          "rotation": -0.9,
+          "position": {
+            "x": -4.5,
+            "y": 1,
+            "z": -3.3
+          }
+        },
+        {
+          "type": "bush-large",
+          "coliderType": "trimesh",
+          "rotation": 3,
+          "position": {
+            "x": -4.1,
+            "y": 0.9,
+            "z": -2.5
+          }
+        }
+      ],
+      "collectibles": [
+        {
+          "type": "coin-2",
+          "coliderType": "trimesh",
+          "rotation": 0,
+          "position": {
+            "x": -1,
+            "y": 3.5,
+            "z": -5
+          }
+        }
+      ],
+      "obstacles": []
+    },
+    {
+      "par": 3,
+      "start": {
+        "x": 8,
+        "y": 6,
+        "z": -1
+      },
+      "camera": {
+        "zoom": {
+          "desktop": 80,
+          "mobile": 80
+        }
+      },
+      "offset": {
+        "x": 2,
+        "z": -1
+      },
+      "ground": [
+        {
+          "type": "ground_4x4",
+          "coliderType": "cuboid",
+          "size": 4,
+          "rotation": 0,
+          "position": {
+            "x": 6,
+            "y": -2,
+            "z": 0
+          }
+        },
+        {
+          "type": "bridge2",
+          "coliderType": "trimesh",
+          "size": 2,
+          "rotation": 0,
+          "position": {
+            "x": 2,
+            "y": -2,
+            "z": 0
+          }
+        },
+        {
+          "type": "ground_2x2",
+          "coliderType": "cuboid",
+          "size": 2,
+          "rotation": 0,
+          "position": {
+            "x": -1,
+            "y": -2,
+            "z": 0
+          }
+        },
+        {
+          "type": "bridge2",
+          "coliderType": "trimesh",
+          "size": 2,
+          "rotation": 0,
+          "position": {
+            "x": -4,
+            "y": -2,
+            "z": 0
+          }
+        },
+        {
+          "type": "hole_4x4",
+          "coliderType": "trimesh",
+          "size": 4,
+          "rotation": 0,
+          "position": {
+            "x": -8,
+            "y": -2,
+            "z": 0
+          }
+        },
+        {
+          "type": "ramp_2x4",
+          "coliderType": "trimesh",
+          "size": 2,
+          "rotation": -90,
+          "position": {
+            "x": 3,
+            "y": 0,
+            "z": -3
+          }
+        },
+        {
+          "type": "ground_2x2",
+          "coliderType": "cuboid",
+          "size": 2,
+          "rotation": 90,
+          "position": {
+            "x": 1,
+            "y": -1,
+            "z": -2.1
+          }
+        },
+        {
+          "type": "ramp_2x4",
+          "coliderType": "trimesh",
+          "size": 2,
+          "rotation": -90,
+          "position": {
+            "x": -1,
+            "y": 0,
+            "z": -3
+          }
+        },
+        {
+          "type": "ground_2x2",
+          "coliderType": "cuboid",
+          "size": 2,
+          "rotation": 90,
+          "position": {
+            "x": -3,
+            "y": -1,
+            "z": -2.1
+          }
+        },
+        {
+          "type": "ramp_2x4",
+          "coliderType": "trimesh",
+          "size": 2,
+          "rotation": -90,
+          "position": {
+            "x": -5,
+            "y": 0,
+            "z": -3
+          }
+        }
+      ],
+      "barriers": [],
+      "assets": [
+        {
+          "type": "tree1",
+          "coliderType": "cuboid",
+          "rotation": -0.9,
+          "position": {
+            "x": 1,
+            "y": 2,
+            "z": -2.1
+          }
+        },
+        {
+          "type": "bush-medium",
+          "coliderType": "trimesh",
+          "rotation": 3,
+          "position": {
+            "x": 0.6,
+            "y": 2,
+            "z": -2
+          }
+        },
+        {
+          "type": "sign-danger",
+          "coliderType": "cuboid",
+          "rotation": -0.5,
+          "position": {
+            "x": 1.4,
+            "y": 2,
+            "z": -1.6
+          }
+        },
+        {
+          "type": "bush-large",
+          "coliderType": "trimesh",
+          "rotation": 0.1,
+          "position": {
+            "x": -2.7,
+            "y": 2,
+            "z": -2.2
+          }
+        },
+        {
+          "type": "sign-left",
+          "coliderType": "cuboid",
+          "rotation": 0.1,
+          "position": {
+            "x": -3.4,
+            "y": 1.8,
+            "z": -1.6
+          }
+        }
+      ],
+      "collectibles": [],
+      "obstacles": [
+        {
+          "type": "boulder",
+          "coliderType": "ball",
+          "customMaterial": true,
+          "delay": 0,
+          "resetDelay": 2500,
+          "rotation": 0,
+          "position": {
+            "x": 3,
+            "y": 12,
+            "z": -4
+          }
+        },
+        {
+          "type": "boulder",
+          "coliderType": "ball",
+          "customMaterial": true,
+          "delay": 500,
+          "resetDelay": 2500,
+          "rotation": 0,
+          "position": {
+            "x": -1,
+            "y": 12,
+            "z": -4
+          }
+        },
+        {
+          "type": "boulder",
+          "coliderType": "ball",
+          "customMaterial": true,
+          "delay": 1000,
+          "resetDelay": 2500,
+          "rotation": 0,
+          "position": {
+            "x": -5,
+            "y": 12,
+            "z": -4
+          }
+        }
+      ]
+    },
+    {
+      "par": 5,
+      "start": {
+        "x": 9,
+        "y": 6,
+        "z": -1
+      },
+      "camera": {
+        "zoom": {
+          "desktop": 70,
+          "mobile": 60
+        }
+      },
+      "offset": {
+        "x": 1,
+        "z": -1
+      },
+      "ground": [
+        {
+          "type": "ground_4x4",
+          "coliderType": "cuboid",
+          "size": 4,
+          "rotation": 0,
+          "position": {
+            "x": 8,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "type": "ground_2x2",
+          "coliderType": "cuboid",
+          "size": 2,
+          "rotation": 0,
+          "position": {
+            "x": 7,
+            "y": 0,
+            "z": 3
+          }
+        },
+        {
+          "type": "ground_2x2",
+          "coliderType": "cuboid",
+          "size": 2,
+          "rotation": 0,
+          "position": {
+            "x": 5,
+            "y": 0,
+            "z": 2
+          }
+        },
+        {
+          "type": "ground_2x2",
+          "coliderType": "cuboid",
+          "size": 2,
+          "rotation": 0,
+          "position": {
+            "x": 5,
+            "y": 0,
+            "z": 4
+          }
+        },
+        {
+          "type": "ground_2x2",
+          "coliderType": "cuboid",
+          "size": 2,
+          "rotation": 0,
+          "position": {
+            "x": 3,
+            "y": 0,
+            "z": 4
+          }
+        },
+        {
+          "type": "ramp_4x4",
+          "coliderType": "trimesh",
+          "size": 4,
+          "rotation": 0,
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 4
+          }
+        },
+        {
+          "id": "path2",
+          "type": "ground_2x2",
+          "coliderType": "cuboid",
+          "size": 2,
+          "rotation": 0,
+          "position": {
+            "x": 7,
+            "y": 0,
+            "z": -3
+          }
+        },
+        {
+          "id": "path2",
+          "type": "ground_2x2",
+          "coliderType": "cuboid",
+          "size": 2,
+          "rotation": 0,
+          "position": {
+            "x": 5,
+            "y": 0,
+            "z": -2
+          }
+        },
+        {
+          "id": "path2",
+          "type": "ground_2x2",
+          "coliderType": "cuboid",
+          "size": 2,
+          "rotation": 0,
+          "position": {
+            "x": 5,
+            "y": 0,
+            "z": -4
+          }
+        },
+        {
+          "id": "path2",
+          "type": "ground_2x2",
+          "coliderType": "cuboid",
+          "size": 2,
+          "rotation": 0,
+          "position": {
+            "x": 3,
+            "y": 0,
+            "z": -4
+          }
+        },
+        {
+          "id": "path2",
+          "type": "ramp_2x4",
+          "coliderType": "trimesh",
+          "size": 2,
+          "rotation": 180,
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": -4
+          }
+        },
+        {
+          "id": "path2",
+          "type": "ground_2x2",
+          "coliderType": "cuboid",
+          "size": 2,
+          "rotation": 0,
+          "position": {
+            "x": -3,
+            "y": -2,
+            "z": -4
+          }
+        },
+        {
+          "id": "path2",
+          "type": "ground_4x4",
+          "coliderType": "cuboid",
+          "size": 4,
+          "rotation": 0,
+          "position": {
+            "x": -6,
+            "y": -2,
+            "z": -4
+          }
+        },
+        {
+          "id": "path2",
+          "type": "ground_2x2",
+          "coliderType": "cuboid",
+          "size": 2,
+          "rotation": 0,
+          "position": {
+            "x": -7,
+            "y": -2,
+            "z": -1
+          }
+        },
+        {
+          "id": "path2",
+          "type": "ground_2x2",
+          "coliderType": "cuboid",
+          "size": 2,
+          "rotation": 0,
+          "position": {
+            "x": -7,
+            "y": -2,
+            "z": 1
+          }
+        },
+        {
+          "id": "path2",
+          "type": "hole_4x4",
+          "coliderType": "trimesh",
+          "size": 4,
+          "rotation": 0,
+          "position": {
+            "x": -7,
+            "y": -2,
+            "z": 4
+          }
+        }
+      ],
+      "barriers": [
+        {
+          "coliderType": "cuboid",
+          "rotation": 0,
+          "size": {
+            "width": 0.1,
+            "height": 0.1,
+            "depth": 3.2
+          },
+          "position": {
+            "x": 9.8,
+            "y": 3.05,
+            "z": 0
+          }
+        },
+        {
+          "coliderType": "cuboid",
+          "rotation": 0,
+          "size": {
+            "width": 0.1,
+            "height": 0.1,
+            "depth": 2.2
+          },
+          "position": {
+            "x": 6.2,
+            "y": 3.05,
+            "z": 0
+          }
+        },
+        {
+          "coliderType": "cuboid",
+          "rotation": 0,
+          "size": {
+            "width": 2.1,
+            "height": 0.1,
+            "depth": 0.1
+          },
+          "position": {
+            "x": 5.2,
+            "y": 3.05,
+            "z": -1.1
+          }
+        },
+        {
+          "coliderType": "cuboid",
+          "rotation": 0,
+          "size": {
+            "width": 0.1,
+            "height": 0.1,
+            "depth": 2.1
+          },
+          "position": {
+            "x": 4.2,
+            "y": 3.05,
+            "z": -2.1
+          }
+        },
+        {
+          "coliderType": "cuboid",
+          "rotation": 0,
+          "size": {
+            "width": 2.1,
+            "height": 0.1,
+            "depth": 0.1
+          },
+          "position": {
+            "x": 3.2,
+            "y": 3.05,
+            "z": -3.1
+          }
+        },
+        {
+          "coliderType": "cuboid",
+          "rotation": 0,
+          "size": {
+            "width": 3.9,
+            "height": 0.1,
+            "depth": 0.1
+          },
+          "position": {
+            "x": 4,
+            "y": 3.05,
+            "z": -4.9
+          }
+        },
+        {
+          "coliderType": "cuboid",
+          "rotation": 0,
+          "size": {
+            "width": 0.1,
+            "height": 0.1,
+            "depth": 1
+          },
+          "position": {
+            "x": 5.9,
+            "y": 3.05,
+            "z": -4.4
+          }
+        },
+        {
+          "coliderType": "cuboid",
+          "rotation": 0,
+          "size": {
+            "width": 2.1,
+            "height": 0.1,
+            "depth": 0.1
+          },
+          "position": {
+            "x": 6.9,
+            "y": 3.05,
+            "z": -3.9
+          }
+        },
+        {
+          "coliderType": "cuboid",
+          "rotation": 0,
+          "size": {
+            "width": 0.1,
+            "height": 0.1,
+            "depth": 2.1
+          },
+          "position": {
+            "x": 7.9,
+            "y": 3.05,
+            "z": -2.9
+          }
+        },
+        {
+          "coliderType": "cuboid",
+          "rotation": 0,
+          "size": {
+            "width": 0.1,
+            "height": 0.1,
+            "depth": 2.1
+          },
+          "position": {
+            "x": 7.9,
+            "y": 3.05,
+            "z": 2.9
+          }
+        },
+        {
+          "coliderType": "cuboid",
+          "rotation": 0,
+          "size": {
+            "width": 2.1,
+            "height": 0.1,
+            "depth": 0.1
+          },
+          "position": {
+            "x": 6.9,
+            "y": 3.05,
+            "z": 3.9
+          }
+        },
+        {
+          "coliderType": "cuboid",
+          "rotation": 0,
+          "size": {
+            "width": 0.1,
+            "height": 0.1,
+            "depth": 1.1
+          },
+          "position": {
+            "x": 5.9,
+            "y": 3.05,
+            "z": 4.4
+          }
+        },
+        {
+          "coliderType": "cuboid",
+          "rotation": 0,
+          "size": {
+            "width": 2.1,
+            "height": 0.1,
+            "depth": 0.1
+          },
+          "position": {
+            "x": 5.2,
+            "y": 3.05,
+            "z": 1.1
+          }
+        },
+        {
+          "coliderType": "cuboid",
+          "rotation": 0,
+          "size": {
+            "width": 0.1,
+            "height": 0.1,
+            "depth": 2.1
+          },
+          "position": {
+            "x": 4.2,
+            "y": 3.05,
+            "z": 2.1
+          }
+        },
+        {
+          "coliderType": "cuboid",
+          "rotation": 0,
+          "size": {
+            "width": 2.1,
+            "height": 0.1,
+            "depth": 0.1
+          },
+          "position": {
+            "x": 3.2,
+            "y": 3.05,
+            "z": 3.1
+          }
+        },
+        {
+          "coliderType": "cuboid",
+          "rotation": 0,
+          "size": {
+            "width": 3.8,
+            "height": 0.1,
+            "depth": 0.1
+          },
+          "position": {
+            "x": 4,
+            "y": 3.05,
+            "z": 4.9
+          }
+        },
+        {
+          "coliderType": "cuboid",
+          "rotation": 0,
+          "size": {
+            "width": 3.8,
+            "height": 0.1,
+            "depth": 0.1
+          },
+          "position": {
+            "x": -6,
+            "y": 1.05,
+            "z": -5.9
+          }
+        },
+        {
+          "coliderType": "cuboid",
+          "rotation": 0,
+          "size": {
+            "width": 0.1,
+            "height": 0.1,
+            "depth": 8.2
+          },
+          "position": {
+            "x": -7.9,
+            "y": 1.05,
+            "z": -1.85
+          }
+        },
+        {
+          "coliderType": "cuboid",
+          "rotation": 0,
+          "size": {
+            "width": 0.1,
+            "height": 0.1,
+            "depth": 4.4
+          },
+          "position": {
+            "x": -6.2,
+            "y": 1.05,
+            "z": 0
+          }
+        },
+        {
+          "coliderType": "cuboid",
+          "rotation": 0,
+          "size": {
+            "width": 2,
+            "height": 0.1,
+            "depth": 0.1
+          },
+          "position": {
+            "x": -5.2,
+            "y": 1.05,
+            "z": -2.2
+          }
+        },
+        {
+          "coliderType": "cuboid",
+          "rotation": 0,
+          "size": {
+            "width": 1.1,
+            "height": 0.1,
+            "depth": 0.1
+          },
+          "position": {
+            "x": -5.7,
+            "y": 1.05,
+            "z": 2.2
+          }
+        },
+        {
+          "coliderType": "cuboid",
+          "rotation": 0,
+          "size": {
+            "width": 1,
+            "height": 0.1,
+            "depth": 0.1
+          },
+          "position": {
+            "x": -8.4,
+            "y": 1.05,
+            "z": 2.2
+          }
+        },
+        {
+          "coliderType": "cuboid",
+          "rotation": 0,
+          "size": {
+            "width": 0.1,
+            "height": 0.1,
+            "depth": 3.7
+          },
+          "position": {
+            "x": -8.9,
+            "y": 1.05,
+            "z": 4
+          }
+        },
+        {
+          "coliderType": "cuboid",
+          "rotation": 0,
+          "size": {
+            "width": 0.1,
+            "height": 0.1,
+            "depth": 3.7
+          },
+          "position": {
+            "x": -5.2,
+            "y": 1.05,
+            "z": 4
+          }
+        },
+        {
+          "coliderType": "cuboid",
+          "rotation": 0,
+          "size": {
+            "width": 3.7,
+            "height": 0.1,
+            "depth": 0.1
+          },
+          "position": {
+            "x": -7,
+            "y": 1.05,
+            "z": 5.8
+          }
+        }
+      ],
+      "assets": [
+        {
+          "type": "tree1",
+          "coliderType": "cuboid",
+          "rotation": -0.9,
+          "position": {
+            "x": 7.5,
+            "y": 3,
+            "z": -3.5
+          }
+        },
+        {
+          "type": "sign-left",
+          "coliderType": "cuboid",
+          "rotation": -0.3,
+          "position": {
+            "x": 6,
+            "y": 3,
+            "z": -3.5
+          }
+        },
+        {
+          "type": "bush-medium",
+          "coliderType": "trimesh",
+          "rotation": -0.9,
+          "position": {
+            "x": 5.5,
+            "y": 3,
+            "z": -4.5
+          }
+        },
+        {
+          "type": "trunk1",
+          "coliderType": "trimesh",
+          "rotation": 0,
+          "position": {
+            "x": 8.8,
+            "y": 3,
+            "z": -1.5
+          }
+        },
+        {
+          "type": "trunk1",
+          "coliderType": "trimesh",
+          "rotation": 180,
+          "position": {
+            "x": 8.8,
+            "y": 3,
+            "z": 1.5
+          }
+        },
+        {
+          "type": "sign-danger",
+          "coliderType": "cuboid",
+          "rotation": -0.3,
+          "position": {
+            "x": 1.5,
+            "y": 3,
+            "z": 2.5
+          }
+        },
+        {
+          "type": "trunk2",
+          "coliderType": "trimesh",
+          "rotation": -0.3,
+          "position": {
+            "x": 1.5,
+            "y": 3,
+            "z": 5.5
+          }
+        },
+        {
+          "type": "tree2",
+          "coliderType": "cuboid",
+          "rotation": -0.3,
+          "position": {
+            "x": -4.5,
+            "y": 1,
+            "z": -5.5
+          }
+        },
+        {
+          "type": "bush-large",
+          "coliderType": "trimesh",
+          "rotation": 90,
+          "position": {
+            "x": -7.3,
+            "y": 1,
+            "z": -5.3
+          }
+        },
+        {
+          "type": "sign-right",
+          "coliderType": "cuboid",
+          "rotation": -90,
+          "position": {
+            "x": -6.1,
+            "y": 1,
+            "z": -2.4
+          }
+        }
+      ],
+      "collectibles": [
+        {
+          "type": "coin-3",
+          "coliderType": "trimesh",
+          "rotation": 0,
+          "position": {
+            "x": -4,
+            "y": 4,
+            "z": 4
+          }
+        }
+      ],
+      "obstacles": [
+        {
+          "type": "spinner",
+          "coliderType": "trimesh",
+          "customMaterial": true,
+          "rotation": 0,
+          "position": {
+            "x": 6,
+            "y": 3,
+            "z": 2.5
+          }
+        }
+      ]
+    },
+    {
+      "par": 5,
+      "start": {
+        "x": 9.5,
+        "y": 6,
+        "z": 1.5
+      },
+      "camera": {
+        "zoom": {
+          "desktop": 70,
+          "mobile": 60
+        }
+      },
+      "offset": {
+        "x": 1.5,
+        "z": 1.5
+      },
+      "ground": [
+        {
+          "type": "ground_4x4",
+          "coliderType": "cuboid",
+          "size": 4,
+          "rotation": -90,
+          "position": {
+            "x": 8,
+            "y": -1,
+            "z": 0
+          }
+        },
+        {
+          "type": "ground_4x4",
+          "coliderType": "cuboid",
+          "size": 4,
+          "rotation": 0,
+          "position": {
+            "x": 4,
+            "y": -1,
+            "z": 0
+          }
+        },
+        {
+          "type": "ground_4x4",
+          "coliderType": "cuboid",
+          "size": 4,
+          "rotation": 180,
+          "position": {
+            "x": 0,
+            "y": -1,
+            "z": 0
+          }
+        },
+        {
+          "type": "ground_4x4",
+          "coliderType": "cuboid",
+          "size": 4,
+          "rotation": 0,
+          "position": {
+            "x": -4,
+            "y": -1,
+            "z": 0
+          }
+        },
+        {
+          "type": "ground_2x2",
+          "coliderType": "cuboid",
+          "size": 2,
+          "rotation": 0,
+          "position": {
+            "x": -4,
+            "y": -1,
+            "z": -3
+          }
+        },
+        {
+          "type": "bridge1",
+          "coliderType": "trimesh",
+          "size": 4,
+          "rotation": 90,
+          "position": {
+            "x": -4,
+            "y": -1,
+            "z": -6
+          }
+        },
+        {
+          "type": "ground_4x4",
+          "coliderType": "cuboid",
+          "size": 4,
+          "rotation": 0,
+          "position": {
+            "x": -4,
+            "y": -1,
+            "z": -10
+          }
+        },
+        {
+          "type": "hole_4x4",
+          "coliderType": "trimesh",
+          "size": 4,
+          "rotation": -90,
+          "position": {
+            "x": 0,
+            "y": -2,
+            "z": -10
+          }
+        }
+      ],
+      "barriers": [],
+      "assets": [
+        {
+          "type": "trunk1",
+          "coliderType": "trimesh",
+          "rotation": 0,
+          "position": {
+            "x": 8.5,
+            "y": 2,
+            "z": 1.5
+          }
+        },
+        {
+          "type": "sign-danger",
+          "coliderType": "cuboid",
+          "rotation": -0.3,
+          "position": {
+            "x": 7,
+            "y": 2,
+            "z": -1.6
+          }
+        },
+        {
+          "type": "tree1",
+          "coliderType": "cuboid",
+          "rotation": -0.3,
+          "position": {
+            "x": 1.6,
+            "y": 2,
+            "z": -1.6
+          }
+        },
+        {
+          "type": "trunk1",
+          "coliderType": "trimesh",
+          "rotation": 90,
+          "position": {
+            "x": -5.5,
+            "y": 2,
+            "z": 0
+          }
+        }
+      ],
+      "collectibles": [
+        {
+          "type": "coin-4",
+          "coliderType": "trimesh",
+          "rotation": 0,
+          "position": {
+            "x": -4,
+            "y": 2.5,
+            "z": -6
+          }
+        }
+      ],
+      "obstacles": [
+        {
+          "type": "windmill",
+          "coliderType": "trimesh",
+          "rotation": 0,
+          "position": {
+            "x": 0,
+            "y": 2,
+            "z": 0
+          }
+        },
+        {
+          "type": "spinner",
+          "coliderType": "trimesh",
+          "rotation": 0,
+          "position": {
+            "x": -4,
+            "y": 2,
+            "z": -10
+          }
+        }
+      ]
+    },
+    {
+      "par": 3,
+      "start": {
+        "x": 3,
+        "y": 6,
+        "z": -3
+      },
+      "camera": {
+        "zoom": {
+          "desktop": 80,
+          "mobile": 70
+        }
+      },
+      "offset": {
+        "x": -1,
+        "z": 1
+      },
+      "ground": [
+        {
+          "type": "ground_2x2",
+          "coliderType": "cuboid",
+          "size": 2,
+          "rotation": 0,
+          "position": {
+            "x": 4,
+            "y": 0,
+            "z": -4
+          }
+        },
+        {
+          "type": "ground_2x2",
+          "coliderType": "cuboid",
+          "size": 2,
+          "rotation": 0,
+          "position": {
+            "x": -1,
+            "y": -2,
+            "z": -4
+          }
+        },
+        {
+          "type": "ground_2x2",
+          "coliderType": "cuboid",
+          "size": 2,
+          "rotation": 0,
+          "position": {
+            "x": -1,
+            "y": -2,
+            "z": -2
+          }
+        },
+        {
+          "type": "ground_2x2",
+          "coliderType": "cuboid",
+          "size": 2,
+          "rotation": 0,
+          "position": {
+            "x": 4,
+            "y": -2,
+            "z": 1
+          }
+        },
+        {
+          "type": "ground_2x2",
+          "coliderType": "cuboid",
+          "size": 2,
+          "rotation": 0,
+          "position": {
+            "x": 2,
+            "y": -2,
+            "z": 1
+          }
+        },
+        {
+          "type": "hole_4x4",
+          "coliderType": "trimesh",
+          "size": 4,
+          "rotation": 0,
+          "position": {
+            "x": -1,
+            "y": -2,
+            "z": 1
+          }
+        },
+        {
+          "type": "ramp_2x4",
+          "coliderType": "trimesh",
+          "size": 2,
+          "rotation": 180,
+          "position": {
+            "x": 7,
+            "y": 0,
+            "z": 1
+          }
+        },
+        {
+          "type": "ramp_2x4",
+          "coliderType": "trimesh",
+          "size": 2,
+          "rotation": -90,
+          "position": {
+            "x": -1,
+            "y": 0,
+            "z": -7
+          }
+        }
+      ],
+      "barriers": [],
+      "assets": [
+        {
+          "type": "sign-danger",
+          "coliderType": "cuboid",
+          "rotation": -0.75,
+          "position": {
+            "x": 4,
+            "y": 3,
+            "z": -4
+          }
+        },
+        {
+          "type": "tree1",
+          "coliderType": "cuboid",
+          "rotation": 0,
+          "position": {
+            "x": 4,
+            "y": 3,
+            "z": -4.65
+          }
+        },
+        {
+          "type": "bush-medium",
+          "coliderType": "trimesh",
+          "rotation": 0,
+          "position": {
+            "x": 4.7,
+            "y": 3,
+            "z": -4
+          }
+        }
+      ],
+      "collectibles": [
+        {
+          "type": "coin-5",
+          "coliderType": "trimesh",
+          "rotation": 0,
+          "position": {
+            "x": 1,
+            "y": 2.5,
+            "z": -1
+          }
+        }
+      ],
+      "obstacles": [
+        {
+          "type": "boulder",
+          "coliderType": "ball",
+          "customMaterial": true,
+          "delay": 0,
+          "resetDelay": 3000,
+          "rotation": 0,
+          "position": {
+            "x": -1,
+            "y": 12,
+            "z": -8
+          }
+        },
+        {
+          "type": "boulder",
+          "coliderType": "ball",
+          "customMaterial": true,
+          "delay": 1000,
+          "resetDelay": 3000,
+          "rotation": 0,
+          "position": {
+            "x": 8,
+            "y": 12,
+            "z": 1
+          }
+        }
+      ]
+    }
+  ]
+}

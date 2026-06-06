@@ -1,0 +1,58 @@
+@tailwind components;
+
+@font-face {
+  font-family: 'baby-monsta';
+  src:
+    url('/fonts/baby-monsta.woff2') format('woff2'),
+    url('/fonts/baby-monsta.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@layer components {
+  .xy-center {
+    @apply top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2;
+  }
+
+  .x-center {
+    @apply left-1/2 -translate-x-1/2;
+  }
+
+  .y-center {
+    @apply top-1/2 -translate-y-1/2;
+  }
+}
+
+.inset {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.font-baloo {
+  font-family: 'Baloo 2', sans-serif;
+}
+
+body {
+  overflow: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+}
+
+* {
+  scrollbar-color: rgba(255, 255, 255, 0.2) rgba(255, 255, 255, 0);
+  scrollbar-width: thin;
+}
