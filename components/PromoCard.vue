@@ -28,7 +28,7 @@
       </div>
 
       <p class="text-14 font-baloo font-400 leading-120 text-stone-500/80 mb-12">
-        Need a <strong class="text-black">Senior Product Designer & Developer</strong> who can build websites, apps and games, just like this one? Let's talk...
+        Need a <strong class="text-black">Senior Designer and/or Developer</strong> who can build websites, apps and games, just like this one? Let's talk...
       </p>
 
       <div class="flex gap-8">
